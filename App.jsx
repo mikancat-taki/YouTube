@@ -14,7 +14,7 @@ function App() {
   const [urlResult, setUrlResult] = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
-  const API_KEY = 'YOUR_YOUTUBE_API_KEY'; // ここにYouTube APIキーを直接入力してください
+  const API_KEY = 'YOUR_YOUTUBE_API_KEY'; // AIzaSyARTqbVFa9iHvXlyHlDZVtpyfO4kxz6_yU
 
   // YouTube API設定の確認
   const checkApiKey = () => {
